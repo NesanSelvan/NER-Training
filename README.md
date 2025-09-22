@@ -1,4 +1,4 @@
-# NER Model: fuzzyethic/NER-ONETONOTE5
+# NER Model: fuzzyethic/NER-ONTONOTES5
 
 This is a Named Entity Recognition (NER) model created with [spaCy](https://spacy.io/). It is trained to identify and classify named entities in English text.
 
