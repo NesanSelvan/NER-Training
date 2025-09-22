@@ -60,6 +60,8 @@ Entities found:
 ```
 
 The model predicts entities in the IOB format with labels such as 
+
+```
 labels = [
     "B-CARDINAL", "B-DATE", "B-EVENT", "B-FAC", "B-GPE", "B-LANGUAGE", "B-LAW",
     "B-LOC", "B-MONEY", "B-NORP", "B-ORDINAL", "B-ORG", "B-PERCENT", "B-PERSON",
@@ -68,3 +70,5 @@ labels = [
     "I-ORDINAL", "I-ORG", "I-PERCENT", "I-PERSON", "I-PRODUCT", "I-QUANTITY",
     "I-TIME", "I-WORK_OF_ART"
 ]
+```
+
