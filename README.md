@@ -46,6 +46,18 @@ for ent in doc.ents:
     print(f"- Text: '{ent.text}', Label: '{ent.label_}'")
 
 ```
+OUTPUT
+
+```
+Downloading model fuzzyethic/NER-ONETONOTE5 from Hugging Face Hub...
+Entities found:
+- Apple (B-ORG)
+- Company (I-ORG)
+- U.K. (B-GPE)
+- $ (B-MONEY)
+- 1 (I-MONEY)
+- billion (I-MONEY)
+```
 
 The model predicts entities in the IOB format with labels such as 
 labels = [
